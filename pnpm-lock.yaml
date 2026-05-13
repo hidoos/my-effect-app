@@ -28,13 +28,13 @@ importers:
         version: 0.3.2
       '@effect/language-service':
         specifier: latest
-        version: 0.85.1
+        version: 0.86.1
       '@effect/vitest':
         specifier: ^4.0.0-beta.59
         version: 4.0.0-beta.64(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))
       '@eslint/compat':
-        specifier: 1.2.2
-        version: 1.2.2(eslint@9.39.4)
+        specifier: 1.4.1
+        version: 1.4.1(eslint@9.39.4)
       '@eslint/eslintrc':
         specifier: 3.1.0
         version: 3.1.0
@@ -229,8 +229,8 @@ packages:
   '@effect/eslint-plugin@0.3.2':
     resolution: {integrity: sha512-c4Vs9t3r54A4Zpl+wo8+PGzZz3JWYsip41H+UrebRLjQ2Hk/ap63IeCgN/HWcYtxtyhRopjp7gW9nOQ2Snbl+g==}
 
-  '@effect/language-service@0.85.1':
-    resolution: {integrity: sha512-EXnJjIy6zQ3nUO/MZ+ynWUb8B895KZPotd1++oTs9JjDkplwM7cb6zo8Zq2zU6piwq+KflO7amXbEfj1UMpHkw==}
+  '@effect/language-service@0.86.1':
+    resolution: {integrity: sha512-jfUuFdtNPKRZ4ZSrgTnfMHPIVq8L9cM+YGEylQ1lhIgNY23ZvfdPg0cUlWESd4q9aGvOWSA8E79AS0qe3j4ROw==}
     hasBin: true
 
   '@effect/platform-node-shared@4.0.0-beta.64':
@@ -427,11 +427,11 @@ packages:
     resolution: {integrity: sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@1.2.2':
-    resolution: {integrity: sha512-jhgiIrsw+tRfcBQ4BFl2C3vCrIUw2trCY0cnDvGZpwTtKCEDmZhAtMfrEUP/KpnwM6PrO0T+Ltm+ccW74olG3Q==}
+  '@eslint/compat@1.4.1':
+    resolution: {integrity: sha512-cfO82V9zxxGBxcQDr1lfaYB7wykTa0b00mGa36FrJl7iTFd0Z2cHfEYuxcBRP/iNijCsWsEkA+jzT8hGYmv33w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: ^9.10.0
+      eslint: ^8.40 || 9
     peerDependenciesMeta:
       eslint:
         optional: true
@@ -2763,7 +2763,7 @@ snapshots:
       '@dprint/typescript': 0.91.8
       prettier-linter-helpers: 1.0.1
 
-  '@effect/language-service@0.85.1': {}
+  '@effect/language-service@0.86.1': {}
 
   '@effect/platform-node-shared@4.0.0-beta.64(effect@4.0.0-beta.64)':
     dependencies:
@@ -2891,7 +2891,9 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.2': {}
 
-  '@eslint/compat@1.2.2(eslint@9.39.4)':
+  '@eslint/compat@1.4.1(eslint@9.39.4)':
+    dependencies:
+      '@eslint/core': 0.17.0
     optionalDependencies:
       eslint: 9.39.4
 
