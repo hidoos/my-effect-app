@@ -28,10 +28,10 @@ importers:
         version: 0.3.2
       '@effect/language-service':
         specifier: latest
-        version: 0.85.1
+        version: 0.86.1
       '@effect/vitest':
         specifier: ^4.0.0-beta.59
-        version: 4.0.0-beta.64(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))
+        version: 4.0.0-beta.66(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))
       '@eslint/compat':
         specifier: 1.2.2
         version: 1.2.2(eslint@9.39.4)
@@ -229,8 +229,8 @@ packages:
   '@effect/eslint-plugin@0.3.2':
     resolution: {integrity: sha512-c4Vs9t3r54A4Zpl+wo8+PGzZz3JWYsip41H+UrebRLjQ2Hk/ap63IeCgN/HWcYtxtyhRopjp7gW9nOQ2Snbl+g==}
 
-  '@effect/language-service@0.85.1':
-    resolution: {integrity: sha512-EXnJjIy6zQ3nUO/MZ+ynWUb8B895KZPotd1++oTs9JjDkplwM7cb6zo8Zq2zU6piwq+KflO7amXbEfj1UMpHkw==}
+  '@effect/language-service@0.86.1':
+    resolution: {integrity: sha512-jfUuFdtNPKRZ4ZSrgTnfMHPIVq8L9cM+YGEylQ1lhIgNY23ZvfdPg0cUlWESd4q9aGvOWSA8E79AS0qe3j4ROw==}
     hasBin: true
 
   '@effect/platform-node-shared@4.0.0-beta.64':
@@ -246,10 +246,10 @@ packages:
       effect: ^4.0.0-beta.64
       ioredis: ^5.7.0
 
-  '@effect/vitest@4.0.0-beta.64':
-    resolution: {integrity: sha512-BI+ju06iC6adB6evHSIz/HTppp9r8Kg1aaoOR6XVUgquLA9h3DJKmR7NWZLh8EXl5fIBI7VXDGpqJVr7MWBUug==}
+  '@effect/vitest@4.0.0-beta.66':
+    resolution: {integrity: sha512-UHPNtU0xXkKtNgyRQEh2c8jh4nIIm8Mzp3xc4j2ZdFU4nq5ZSySnpovjPMdoWbVClg1ki8UbpNGEZUfxEJo+6Q==}
     peerDependencies:
-      effect: ^4.0.0-beta.64
+      effect: ^4.0.0-beta.66
       vitest: ^3.0.0 || ^4.0.0
 
   '@emnapi/core@1.10.0':
@@ -2763,7 +2763,7 @@ snapshots:
       '@dprint/typescript': 0.91.8
       prettier-linter-helpers: 1.0.1
 
-  '@effect/language-service@0.85.1': {}
+  '@effect/language-service@0.86.1': {}
 
   '@effect/platform-node-shared@4.0.0-beta.64(effect@4.0.0-beta.64)':
     dependencies:
@@ -2785,7 +2785,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@effect/vitest@4.0.0-beta.64(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))':
+  '@effect/vitest@4.0.0-beta.66(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))':
     dependencies:
       effect: 4.0.0-beta.64
       vitest: 3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4)
