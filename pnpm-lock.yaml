@@ -28,7 +28,7 @@ importers:
         version: 0.3.2
       '@effect/language-service':
         specifier: latest
-        version: 0.85.1
+        version: 0.86.1
       '@effect/vitest':
         specifier: ^4.0.0-beta.59
         version: 4.0.0-beta.64(effect@4.0.0-beta.64)(vitest@3.2.4(@types/node@22.19.18)(tsx@4.21.0)(yaml@2.8.4))
@@ -91,7 +91,7 @@ importers:
     dependencies:
       '@effect/platform-node':
         specifier: ^4.0.0-beta.59
-        version: 4.0.0-beta.64(effect@4.0.0-beta.64)(ioredis@5.10.1)
+        version: 4.0.0-beta.66(effect@4.0.0-beta.64)(ioredis@5.10.1)
       '@template/domain':
         specifier: workspace:^
         version: link:../domain/dist
@@ -111,7 +111,7 @@ importers:
     dependencies:
       '@effect/platform-node':
         specifier: ^4.0.0-beta.59
-        version: 4.0.0-beta.64(effect@4.0.0-beta.64)(ioredis@5.10.1)
+        version: 4.0.0-beta.66(effect@4.0.0-beta.64)(ioredis@5.10.1)
       '@template/domain':
         specifier: workspace:^
         version: link:../domain/dist
@@ -229,21 +229,21 @@ packages:
   '@effect/eslint-plugin@0.3.2':
     resolution: {integrity: sha512-c4Vs9t3r54A4Zpl+wo8+PGzZz3JWYsip41H+UrebRLjQ2Hk/ap63IeCgN/HWcYtxtyhRopjp7gW9nOQ2Snbl+g==}
 
-  '@effect/language-service@0.85.1':
-    resolution: {integrity: sha512-EXnJjIy6zQ3nUO/MZ+ynWUb8B895KZPotd1++oTs9JjDkplwM7cb6zo8Zq2zU6piwq+KflO7amXbEfj1UMpHkw==}
+  '@effect/language-service@0.86.1':
+    resolution: {integrity: sha512-jfUuFdtNPKRZ4ZSrgTnfMHPIVq8L9cM+YGEylQ1lhIgNY23ZvfdPg0cUlWESd4q9aGvOWSA8E79AS0qe3j4ROw==}
     hasBin: true
 
-  '@effect/platform-node-shared@4.0.0-beta.64':
-    resolution: {integrity: sha512-F5hVnPZbgKzxy2TijjhNZKqj7tQi60dx1W/JinnsNxYKGuspvW2gDUeqmNw7sP2bEA5ToeGDPqRCRdpHj3sZxg==}
+  '@effect/platform-node-shared@4.0.0-beta.66':
+    resolution: {integrity: sha512-+ymrhBnESv/hmn5SKTe2//IY9Ox/hGPeoogEWhW47ZGyhFI5eMYFxdEUBa+3IAV05rrBzrxON9lynu68n0DM7w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      effect: ^4.0.0-beta.64
+      effect: ^4.0.0-beta.66
 
-  '@effect/platform-node@4.0.0-beta.64':
-    resolution: {integrity: sha512-HlY04TBxe1Z2+Jl4dbwG5uHiUpEH6jvasoNtII6oergaHHQbbD8fLgFzHdy09mJTMK5B1O1fSb95Yztu5jwHxw==}
+  '@effect/platform-node@4.0.0-beta.66':
+    resolution: {integrity: sha512-s/0RgaQFuszzdorRnX1PwEQNnSOi+JgMJo3zEe9O2NR3sosMhTr0Uk+1AF6bUOI9uJ2CPT3KpTIIU7q5/TpOkg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      effect: ^4.0.0-beta.64
+      effect: ^4.0.0-beta.66
       ioredis: ^5.7.0
 
   '@effect/vitest@4.0.0-beta.64':
@@ -770,6 +770,9 @@ packages:
 
   '@types/node@22.19.18':
     resolution: {integrity: sha512-9v00a+dn2yWVsYDEunWC4g/TcRKVq3r8N5FuZp7u0SGrPvdN9c2yXI9bBuf5Fl0hNCb+QTIePTn5pJs2pwBOQQ==}
+
+  '@types/node@25.7.0':
+    resolution: {integrity: sha512-z+pdZyxE+RTQE9AcboAZCb4otwcrvgHD+GlBpPgn0emDVt0ohrTMhAwlr2Wd9nZ+nihhYFxO2pThz3C5qSu2Eg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2450,6 +2453,9 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
+  undici-types@7.21.0:
+    resolution: {integrity: sha512-w9IMgQrz4O0YN1LtB7K5P63vhlIOvC7opSmouCJ+ZywlPAlO9gIkJ+otk6LvGpAs2wg4econaCz3TvQ9xPoyuQ==}
+
   undici@8.2.0:
     resolution: {integrity: sha512-Z+4Hx9GE26Lh9Upwfnc8C7SsrpBPGaM/Gm6kMFtiG7c+5IvQKlXi/t+9x9DrrCh29cww5TSP9YdVaBcnLDs5fQ==}
     engines: {node: '>=22.19.0'}
@@ -2590,8 +2596,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.20.0:
-    resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
+  ws@8.20.1:
+    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -2763,20 +2769,20 @@ snapshots:
       '@dprint/typescript': 0.91.8
       prettier-linter-helpers: 1.0.1
 
-  '@effect/language-service@0.85.1': {}
+  '@effect/language-service@0.86.1': {}
 
-  '@effect/platform-node-shared@4.0.0-beta.64(effect@4.0.0-beta.64)':
+  '@effect/platform-node-shared@4.0.0-beta.66(effect@4.0.0-beta.64)':
     dependencies:
       '@types/ws': 8.18.1
       effect: 4.0.0-beta.64
-      ws: 8.20.0
+      ws: 8.20.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@effect/platform-node@4.0.0-beta.64(effect@4.0.0-beta.64)(ioredis@5.10.1)':
+  '@effect/platform-node@4.0.0-beta.66(effect@4.0.0-beta.64)(ioredis@5.10.1)':
     dependencies:
-      '@effect/platform-node-shared': 4.0.0-beta.64(effect@4.0.0-beta.64)
+      '@effect/platform-node-shared': 4.0.0-beta.66(effect@4.0.0-beta.64)
       effect: 4.0.0-beta.64
       ioredis: 5.10.1
       mime: 4.1.0
@@ -3193,6 +3199,10 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/node@25.7.0':
+    dependencies:
+      undici-types: 7.21.0
+
   '@types/normalize-package-data@2.4.4': {}
 
   '@types/stack-utils@2.0.3': {}
@@ -3201,7 +3211,7 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 22.19.18
+      '@types/node': 25.7.0
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -5120,6 +5130,8 @@ snapshots:
 
   undici-types@6.21.0: {}
 
+  undici-types@7.21.0: {}
+
   undici@8.2.0: {}
 
   unist-util-stringify-position@2.0.3:
@@ -5309,7 +5321,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.20.0: {}
+  ws@8.20.1: {}
 
   yallist@3.1.1: {}
 
